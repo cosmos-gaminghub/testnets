@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2020-01-30T03:58:31.60380039Z",
+  "genesis_time": "2020-01-30T07:22:15.30693109Z",
   "chain_id": "nibiru-1000",
   "consensus_params": {
     "block": {
@@ -18,17 +18,19 @@
   },
   "app_hash": "",
   "app_state": {
-    "slashing": {
-      "params": {
-        "max_evidence_age": "120000000000",
-        "signed_blocks_window": "100",
-        "min_signed_per_window": "0.500000000000000000",
-        "downtime_jail_duration": "600000000000",
-        "slash_fraction_double_sign": "0.050000000000000000",
-        "slash_fraction_downtime": "0.010000000000000000"
+    "mint": {
+      "minter": {
+        "inflation": "0.130000000000000000",
+        "annual_provisions": "0.000000000000000000"
       },
-      "signing_infos": {},
-      "missed_blocks": {}
+      "params": {
+        "mint_denom": "quark",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
     },
     "accounts": [
       {
@@ -128,18 +130,13 @@
         ]
       }
     ],
-    "mint": {
-      "minter": {
-        "inflation": "0.130000000000000000",
-        "annual_provisions": "0.000000000000000000"
-      },
+    "auth": {
       "params": {
-        "mint_denom": "quark",
-        "inflation_rate_change": "0.130000000000000000",
-        "inflation_max": "0.200000000000000000",
-        "inflation_min": "0.070000000000000000",
-        "goal_bonded": "0.670000000000000000",
-        "blocks_per_year": "6311520"
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
       }
     },
     "gov": {
@@ -165,11 +162,23 @@
         "veto": "0.334000000000000000"
       }
     },
-    "crisis": {
-      "constant_fee": {
-        "denom": "quark",
-        "amount": "1000"
-      }
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400000000000",
+        "max_validators": 100,
+        "max_entries": 7,
+        "bond_denom": "quark"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "supply": {
+      "supply": []
     },
     "distribution": {
       "fee_pool": {
@@ -188,10 +197,28 @@
       "delegator_starting_infos": [],
       "validator_slash_events": []
     },
+    "crisis": {
+      "constant_fee": {
+        "denom": "quark",
+        "amount": "1000"
+      }
+    },
+    "params": null,
     "bank": {
       "send_enabled": true
     },
-    "params": null,
+    "slashing": {
+      "params": {
+        "max_evidence_age": "120000000000",
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
     "genutil": {
       "gentxs": [
         {
@@ -215,7 +242,7 @@
                   "min_self_delegation": "1",
                   "delegator_address": "nibiru1zl2qupezulr4ttefzkdx0w4vmuwgx4q8aqv2cg",
                   "validator_address": "nibiruvaloper1zl2qupezulr4ttefzkdx0w4vmuwgx4q8qwece2",
-                  "pubkey": "nibiruvalconspub1zcjduepq737mvml03hlmctld0g6u7gzkkz385adyyug3l6luq358tywlg8ps2aw4x6",
+                  "pubkey": "nibiruvalconspub1zcjduepqx86v595h2rgxt6vwyurvlu9t0arqfs5gum6tlvvrg6sselx4449qwswcya",
                   "value": {
                     "denom": "quark",
                     "amount": "1250000000"
@@ -233,10 +260,10 @@
                   "type": "tendermint/PubKeySecp256k1",
                   "value": "A9Ys2e0aYvYbADZiQZSlMIBlte2zSe7fcZ90+B/rB9Fy"
                 },
-                "signature": "VBt4CCrbvjFxPHigeRpa4zpbx51KNgLVlD8SIEOASB5v+MNKFHg7M7/vIQL7jegAk61gwLZ3sRzRaTeUL5tmfA=="
+                "signature": "pjEF1FUUOiggTOqK34uqaYbyQetRNfRvUQfcJKjNrDw6vbr1uP+9mrrAqyOhPmNDGSE/HahJkEaUCMc00RaJXQ=="
               }
             ],
-            "memo": "baa790c868a62c44fdeba21409c2c62b6e9ff38e@10.2.6.159:26656"
+            "memo": "724b24d0ec94a655ba8b81c0dbca687feba27e8c@10.2.6.159:26656"
           }
         },
         {
@@ -260,7 +287,7 @@
                   "min_self_delegation": "1",
                   "delegator_address": "nibiru1et8tw0vs644vhn0zmprkccv76hmprpp4pg89wg",
                   "validator_address": "nibiruvaloper1et8tw0vs644vhn0zmprkccv76hmprpp4uxjh02",
-                  "pubkey": "nibiruvalconspub1zcjduepq4ev0j32y9h4zp5ehzr9m8h4tzre5mwkf5jq5l3elq6xfnf7kln3q486850",
+                  "pubkey": "nibiruvalconspub1zcjduepqr3qrqd8r9yp024v0vjxxx66e9a329cn6ajagwmez7n3aaw62yrwqvn7c03",
                   "value": {
                     "denom": "quark",
                     "amount": "1250000000"
@@ -278,10 +305,10 @@
                   "type": "tendermint/PubKeySecp256k1",
                   "value": "Ar87N52tIxgZgIA8YBPVX2m3jjf2d1huirfSgxiKDmK2"
                 },
-                "signature": "tByJIZqWVUhJ98h5Wjbd1+fiommsty2YTG6/H0WoTro+qaPZ1Ky+1DFJAKsNmo3/YH/Pz1PatJ67/9gvYLX1XQ=="
+                "signature": "0YxWTa8oSlXVovV94p2F6opeKcBwMWooec/OCavr/t1KZTdr7e2dBLVdrE8J3Di+9oh19QnCgLq6Itl+eYpv+Q=="
               }
             ],
-            "memo": "bafec929e4f7f1f2944f125e59da9920b692ca13@10.2.45.117:26656"
+            "memo": "a49edecf9939b2f004ead72e3ddbc1359563cdfe@10.2.45.117:26656"
           }
         },
         {
@@ -305,7 +332,7 @@
                   "min_self_delegation": "1",
                   "delegator_address": "nibiru17qcv8htv4gex60qkx2558yhcehex020ryr5pl3",
                   "validator_address": "nibiruvaloper17qcv8htv4gex60qkx2558yhcehex020redpn7n",
-                  "pubkey": "nibiruvalconspub1zcjduepqmsuqt5daa94njkg3phck3zjlt6jnnes6hfz5lp7fy5rmh4ryxevqhfkj2f",
+                  "pubkey": "nibiruvalconspub1zcjduepqdg2n8ydrkrlhhajsef02w8tct95quj9xenffe5nyk4ak7cks62kqhptpw3",
                   "value": {
                     "denom": "quark",
                     "amount": "1250000000"
@@ -323,10 +350,10 @@
                   "type": "tendermint/PubKeySecp256k1",
                   "value": "A3Brl+IHC9RrEy9afzV7Ql3R0NmuFaRotapTL0EZGUGy"
                 },
-                "signature": "W/SfzoAxNLsp/fJExeLi2d8m/FtDwtrxxRSkp0iRPXNAfeQusScNgRFbowIv4gxdQ509tuuwbVUbNTrh6dAdfQ=="
+                "signature": "hy0dbnIvanSV0cOCBixUi97isOitT/cSzGMbP6PTWVlRx47DxkaYMnb4ya9BufTBV5tqdqWSXL+w90SdRRilbA=="
               }
             ],
-            "memo": "9bb8f15bb601e141d2f58b21da0db682b185f83b@10.2.14.120:26656"
+            "memo": "4b46bce738ab06be02b7eb954f52cb0587e4a667@10.2.14.120:26656"
           }
         },
         {
@@ -350,7 +377,7 @@
                   "min_self_delegation": "1",
                   "delegator_address": "nibiru1z8s32s60y49nnlkh63wvq5qzx9jfzyz3tgx4jm",
                   "validator_address": "nibiruvaloper1z8s32s60y49nnlkh63wvq5qzx9jfzyz3kxn8ne",
-                  "pubkey": "nibiruvalconspub1zcjduepqswy2e7kl9y25kqfrt8xt7smvjr30dmz59gdn436440qvcqm5y89q6v3gcz",
+                  "pubkey": "nibiruvalconspub1zcjduepqxjls7pg3lmqzwuskqcqusjpay3efnqnfmz4htstr0xmdkhscc2dqct0vyh",
                   "value": {
                     "denom": "quark",
                     "amount": "1250000000"
@@ -368,40 +395,13 @@
                   "type": "tendermint/PubKeySecp256k1",
                   "value": "A7E4V4IsxTqy2xP0K+H4NihbIyhFAGLaO/rJV74eQn+3"
                 },
-                "signature": "kJHrR5WVO8uFd7ocOUDYmlM7zGpFzoqZL2n+vhbB3ycOpE7RwPISHuDeTSFJnB6VpfG4PwqL8KnDDVVA0/43bQ=="
+                "signature": "j4SZjnjPWrHkmksETvnRTmBgRUjtR7Tgk07lDs1EScs7ts0oPXAQ0ZDZc9nhEHTx6sPuECLde+qeQyWBRaLInA=="
               }
             ],
-            "memo": "43b48fd52c7c59b1c73dd5cd90f4155922616095@10.2.42.108:26656"
+            "memo": "314a731752b0a3ec82d2f4688c960559018138a6@10.2.42.108:26656"
           }
         }
       ]
-    },
-    "supply": {
-      "supply": []
-    },
-    "staking": {
-      "params": {
-        "unbonding_time": "1814400000000000",
-        "max_validators": 100,
-        "max_entries": 7,
-        "bond_denom": "quark"
-      },
-      "last_total_power": "0",
-      "last_validator_powers": null,
-      "validators": null,
-      "delegations": null,
-      "unbonding_delegations": null,
-      "redelegations": null,
-      "exported": false
-    },
-    "auth": {
-      "params": {
-        "max_memo_characters": "256",
-        "tx_sig_limit": "7",
-        "tx_size_cost_per_byte": "10",
-        "sig_verify_cost_ed25519": "590",
-        "sig_verify_cost_secp256k1": "1000"
-      }
     }
   }
 }
