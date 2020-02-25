@@ -20,7 +20,7 @@ nibiru-1000
 v0.2
 ```
 
-Persistent peers
+**Persistent peers**
 
 ```sh
 4b46bce738ab06be02b7eb954f52cb0587e4a667@52.74.243.27:26656
