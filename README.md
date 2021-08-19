@@ -3,6 +3,7 @@ This is the repositary for all the testnets of Cosmos Gaming Hub.
 
 ## Latest Testnet (Start From August 28, 2021 11:00 GMT)
 See [the detail instruction](./nibiru-2000/README.md) to participate in `nibiru-2000` testnet.
+
 **chain ID**
 
 ```sh

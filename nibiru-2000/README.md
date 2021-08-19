@@ -26,4 +26,4 @@ nibirud gentx <your key name> 100000000000game --commission-rate=0.1 --commissio
 
 ```
 
-5. Create Pull Request to this repository.
+5. Create Pull Request to this repository ([gentxs](./gentxs)).
