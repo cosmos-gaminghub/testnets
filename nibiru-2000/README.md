@@ -17,7 +17,7 @@ nibirud keys add <your key name>
 
 3. Add tour account to your local genesis file with a given amount and key you just created.
 ```
-nibirud add-genesis-account $(nibirud keys show eg -a) 100000000000game
+nibirud add-genesis-account $(nibirud keys show <your key name> -a) 100000000000game
 ```
 
 4. Create the gentx
