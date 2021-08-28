@@ -27,4 +27,3 @@ nibirud gentx <your key name> 100000000000game --commission-rate=0.1 --commissio
 ```
 
 5. Create Pull Request to this repository ([gentxs](./gentxs)
-cd ~/.nibiru/cofig/gentx#starsouth testnets/nibiru-2000/gentxs//root/.nibiru/config/gentx/gentx-851fbb5ea90a5cbeeae3abe2c3ccdf95d0b73e69.json
