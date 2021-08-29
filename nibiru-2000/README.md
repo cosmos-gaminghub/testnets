@@ -3,7 +3,7 @@
 - Go version: [v1.16+](https://golang.org/dl/)
 - Nibirud version: [v0.3](https://github.com/cosmos-gaminghub/nibiru/releases/tag/v0.3)
 
-## GenTx Collection ( Until August 28, 2021 11:00 GMT)
+## GenTx Collection ( Until September 1st, 2021 11:00 GMT)
 1. Initialize the nibiru directories and create the local file with the correct chain-id
 
 ```
