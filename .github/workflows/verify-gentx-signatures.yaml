@@ -7,7 +7,7 @@ on:
     branches:
       - master
 jobs:
-  verify-gentx:
+  verify-signatures:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-go@v2.1.3
@@ -19,4 +19,5 @@ jobs:
           git clone https://github.com/cosmos-gaminghub/nibiru
           cd nibiru
           make install
+          cd ../
           bash -x ./scripts/generate-genesis.sh
