@@ -42,4 +42,4 @@ $DAEMON validate-genesis
 
 cp $CONFIG/genesis.json $NETWORK
 
-timeout 10 nibirud start
+(timeout 10s nibirud start; exit 0)
