@@ -1,8 +1,11 @@
 name: Gentx Format
 on:
+  push:
+    branches:
+      - master
   pull_request:
-    paths:
-      - /nibiru-2000/gentxs/*.json
+    branches:
+      - master
 jobs:
   verify-gentx:
     runs-on: ubuntu-latest
