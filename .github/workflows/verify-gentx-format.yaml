@@ -1,0 +1,13 @@
+name: Gentx Format
+on:
+  pull_request:
+    paths:
+      - /nibiru-2000/gentxs/*.json
+jobs:
+  verify-gentx:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: gentx-validation
+        run: |
+          bash -x ./scripts/verify-gentx.sh

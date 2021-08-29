@@ -5,7 +5,10 @@ DAEMON=nibirud
 HOME_DIR=~/.nibiru
 CONFIG=~/.nibiru/config
 TOKEN_DENOM=game
-#FAUCET_ACCOUNTS=("" "")
+FAUCET_ACCOUNTS=(
+  "nibiru1as53rfgmtg92aga7tuxmv3kj4qr5j3475u8653"
+  "nibiru1sa4zt93ymsvfqkpwn27950uaurv2jp4dtvtvwn"
+)
 
 rm -rf $HOME_DIR
 
@@ -21,13 +24,22 @@ for i in $NETWORK/gentxs/*.json; do
   cp $i $CONFIG/gentx/
 done
 
-#for addr in "${FAUCET_ACCOUNTS[@]}"; do
-    #echo "Adding faucet addr: $addr"
-    #$DAEMON add-genesis-account $addr 100000000000$TOKEN_DENOM
-#done
+# for team validators
+for i in $NETWORK/gentxs/cgh/*.json; do
+  echo $i
+  $DAEMON add-genesis-account $(jq -r '.body.messages[0].delegator_address' $i) 500000000000$TOKEN_DENOM
+  cp $i $CONFIG/gentx/
+done
+
+for addr in "${FAUCET_ACCOUNTS[@]}"; do
+    echo "Adding faucet addr: $addr"
+    $DAEMON add-genesis-account $addr 90000000000000$TOKEN_DENOM
+done
 
 $DAEMON collect-gentxs
 
 $DAEMON validate-genesis
 
 cp $CONFIG/genesis.json $NETWORK
+
+timeout 10 nibirud start
