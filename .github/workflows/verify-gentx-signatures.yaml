@@ -14,19 +14,15 @@ jobs:
         with:
           go-version: 1.16
       - uses: actions/checkout@v2
-      - uses: technote-space/get-diff-action@v4
+      - name: gentx-validation
         with:
           PATTERNS: |
             **/**.go
             go.mod
             go.sum
-      - name: build
+      - name: build & validate
         run: |
           git clone https://github.com/cosmos-gaminghub/nibiru
           cd nibiru
           make install
-    steps:
-      - uses: actions/checkout@v2
-      - name: gentx-validation
-        run: |
           bash -x ./scripts/generate-genesis.sh
