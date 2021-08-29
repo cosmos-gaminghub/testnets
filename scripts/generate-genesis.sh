@@ -42,4 +42,5 @@ $DAEMON validate-genesis
 
 cp $CONFIG/genesis.json $NETWORK
 
-(timeout 10s nibirud start; exit 0)
+timeout 10m nibirud start || ( [[ $? -eq 124 ]] && \
+echo "WARNING: Timeout reached, but that's OK" )
