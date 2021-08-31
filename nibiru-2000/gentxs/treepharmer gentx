@@ -1,0 +1,1 @@
+nibirud gentx "GRQ78967" 100000000000game --commission-rate=0.1 --commission-max-rate=1 --commission-max-change-rate=0.1 --pubkey $(nibirud tendermint show-validator) --chain-id=nibiru-2000
