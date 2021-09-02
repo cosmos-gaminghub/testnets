@@ -2,9 +2,14 @@
 This is the repositary for all the testnets of Cosmos Gaming Hub.
 
 ## Latest Testnet (Start From September 2nd, 2021 11:00 GMT)
-See [the detail instruction](./nibiru-2000/README.md) to participate in `nibiru-2000` testnet.
 
-`genesis.json` and Seed Node IP will be published before September 2nd, 2021 11:00 GMT.
+See [the detail instruction](https://github.com/cosmos-gaminghub/testnets/blob/master/nibiru-2000/README.md) to participate in nibiru-2000 testnet.
+Download the genesis here: [genesis.json](https://raw.githubusercontent.com/cosmos-gaminghub/testnets/master/latest/genesis.json)
+
+```sh
+shasum -a 256 genesis.json
+12b40d0c660e65f5a78e6b5bd90298a4d3cdeffeb5fdcb069ee789d254c2fdad  genesis.json
+```
 
 **chain ID**
 
@@ -13,15 +18,22 @@ nibiru-2000
 ```
 
 **genesis time**
-TBA
+
+```sh
+2021-09-02T11:00:00Z
+```
 
 **Nibiru Version**
 
 ```sh
 v0.3
 ```
+
 **Seed **
-TBA
+
+```sh
+42de54ab0ea03b96b28ca43818d9d27cbeb231bc@167.179.117.190:26656
+```
 
 ## Past testnets
 **chain ID**
