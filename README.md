@@ -3,8 +3,9 @@ This is the repositary for all the testnets of Cosmos Gaming Hub.
 
 ## Latest Testnet (Start From September 2nd, 2021 11:00 GMT)
 
-See [the detail instruction](https://github.com/cosmos-gaminghub/testnets/blob/master/nibiru-2000/README.md) to participate in nibiru-2000 testnet.
-Download the genesis here: [genesis.json](https://raw.githubusercontent.com/cosmos-gaminghub/testnets/master/latest/genesis.json)
+See [the detail instruction](./nibiru-2000/README.md) to participate in nibiru-2000 testnet.
+
+Download the genesis here: [genesis.json](./nibiru-2020/genesis.json)
 
 ```sh
 shasum -a 256 genesis.json
@@ -29,7 +30,7 @@ nibiru-2000
 v0.3
 ```
 
-**Seed **
+Seed
 
 ```sh
 42de54ab0ea03b96b28ca43818d9d27cbeb231bc@167.179.117.190:26656

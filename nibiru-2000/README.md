@@ -23,17 +23,16 @@ nibirud add-genesis-account $(nibirud keys show <your key name> -a) 100000000000
 4. Create the gentx
 ```
 nibirud gentx <your key name> 100000000000game --commission-rate=0.1 --commission-max-rate=1 --commission-max-change-rate=0.1 --pubkey $(nibirud tendermint show-validator) --chain-id=nibiru-2000
-
 ```
 
 5. Create Pull Request to this repository ([gentxs](./gentxs)).
 
 
-## Start
+## Genesis Start
 
 1. get genesis.json
 ```sh
-curl -o $HOME/.nibiru/config/genesis.json https://raw.githubusercontent.com/cosmos-gaminghub/testnets/master/latest/genesis.json
+curl -o $HOME/.nibiru/config/genesis.json https://raw.githubusercontent.com/cosmos-gaminghub/testnets/master/nibiru-2000/genesis.json
 ```
 
 2. check genesis.json is correct
@@ -78,4 +77,6 @@ nibirud start
 curl  -s localhost:26657/dump_consensus_state | jq '.result.round_state.votes[0]'
 ```
 
-You can find your validator pubkey in `priv_validator_state.json`. If you've already signed, you can check in the sign status.
+That command shows all the info about validator sign status.
+
+You can find your validator pubkey in `priv_validator_state.json`. If you've already signed, you can find your pubkey in the sign status.
