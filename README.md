@@ -1,7 +1,7 @@
 # Cosmos Gaming Hub Testnets
 This is the repositary for all the testnets of Cosmos Gaming Hub.
 
-## Latest Testnet (Start From September 2nd, 2021 11:00 GMT)
+## Latest Testnet
 
 See [the detail instruction](./nibiru-2000/README.md) to participate in nibiru-2000 testnet.
 
@@ -30,7 +30,7 @@ nibiru-2000
 v0.3
 ```
 
-Seed
+**Seed**
 
 ```sh
 42de54ab0ea03b96b28ca43818d9d27cbeb231bc@167.179.117.190:26656
