@@ -10,7 +10,7 @@ FAUCET_ACCOUNTS=(
   "nibiru1sa4zt93ymsvfqkpwn27950uaurv2jp4dtvtvwn"
 )
 
-rm -rf $HOME_DIR
+rm $CONFIG/genesis.json
 
 $DAEMON init $NETWORK --chain-id $NETWORK
 
