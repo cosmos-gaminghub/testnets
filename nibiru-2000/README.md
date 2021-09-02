@@ -3,7 +3,18 @@
 - Go version: [v1.16+](https://golang.org/dl/)
 - Nibirud version: [v0.3](https://github.com/cosmos-gaminghub/nibiru/releases/tag/v0.3)
 
-## GenTx Collection ( Until September 1st, 2021 11:00 GMT)
+## genesis params (changed from default)
+
+```
+"signed_blocks_window": "10000"
+"min_signed_per_window": "0.050000000000000000"
+"unbonding_time": "259200s"
+```
+- You have to keep up at least 5% in the last 10000block for avoid downtime slashing.
+- You have to wait 3days to unbond your token.
+
+
+## GenTx Collection (DONE)
 1. Initialize the nibiru directories and create the local file with the correct chain-id
 
 ```
@@ -66,7 +77,7 @@ vim $HOME/.nibiru/config/config.toml
 seeds = "42de54ab0ea03b96b28ca43818d9d27cbeb231bc@167.179.117.190:26656"
 ```
 
-5. start!
+5. start
 ```
 nibirud start
 ```
