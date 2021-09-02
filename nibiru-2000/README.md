@@ -10,8 +10,8 @@
 "min_signed_per_window": "0.050000000000000000"
 "unbonding_time": "259200s"
 ```
-You have to keep up at least 5% in the last 10000block for avoid downtime slashing.
-You have to wait 3days to unbond your token.
+- You have to keep up at least 5% in the last 10000block for avoid downtime slashing.
+- You have to wait 3days to unbond your token.
 
 
 ## GenTx Collection (DONE)
