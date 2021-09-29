@@ -1,8 +1,16 @@
 # Cosmos Gaming Hub Testnets
 This is the repositary for all the testnets of Cosmos Gaming Hub.
 
-## Latest Testnet (Start From August 28, 2021 11:00 GMT)
-See [the detail instruction](./nibiru-2000/README.md) to participate in `nibiru-2000` testnet.
+## Latest Testnet
+
+See [the detail instruction](./nibiru-2000/README.md) to participate in nibiru-2000 testnet.
+
+Download the genesis here: [genesis.json](./nibiru-2020/genesis.json)
+
+```sh
+shasum -a 256 genesis.json
+12b40d0c660e65f5a78e6b5bd90298a4d3cdeffeb5fdcb069ee789d254c2fdad  genesis.json
+```
 
 **chain ID**
 
@@ -11,15 +19,22 @@ nibiru-2000
 ```
 
 **genesis time**
-TBA
+
+```sh
+2021-09-02T11:00:00Z
+```
 
 **Nibiru Version**
 
 ```sh
 v0.3
 ```
-**Persistent peers**
-TBA
+
+**Seed**
+
+```sh
+42de54ab0ea03b96b28ca43818d9d27cbeb231bc@167.179.117.190:26656
+```
 
 ## Past testnets
 **chain ID**
