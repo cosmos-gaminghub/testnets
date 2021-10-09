@@ -1,12 +1,12 @@
 #!/bin/bash
-NETWORK=nibiru-2000
+NETWORK=neuron-1
 MAX_BOND=100000000000
 
 extraquery='[.body.messages[] | select(."@type" != "/cosmos.staking.v1beta1.MsgCreateValidator")] | length'
 
 gentxquery='.body.messages[] | select(."@type" = "/cosmos.staking.v1beta1.MsgCreateValidator") | .value'
 
-denomquery="[$gentxquery | select(.denom != \"game\")] | length"
+denomquery="[$gentxquery | select(.denom != \"ugame\")] | length"
 
 amountquery="$gentxquery | .amount"
 
