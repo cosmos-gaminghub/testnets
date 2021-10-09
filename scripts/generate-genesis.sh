@@ -1,10 +1,10 @@
 #!/bin/bash
 
-NETWORK=nibiru-2000
+NETWORK=neuron-1
 DAEMON=nibirud
 HOME_DIR=~/.nibiru
 CONFIG=~/.nibiru/config
-TOKEN_DENOM=game
+TOKEN_DENOM=ugame
 FAUCET_ACCOUNTS=(
   "nibiru1as53rfgmtg92aga7tuxmv3kj4qr5j3475u8653"
   "nibiru1sa4zt93ymsvfqkpwn27950uaurv2jp4dtvtvwn"
