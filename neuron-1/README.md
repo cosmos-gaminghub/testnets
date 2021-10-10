@@ -26,7 +26,7 @@ Neuron Incentivized Testnet is the final 2 weeks testnet before mainnet launch f
 
 Until October 17, 2021 11:00 GMT, participants are required to do the following things:
 - **Submit Gentx**
-- **[Form](https://forms.gle/BHgLRhmyrHoWzLj17) Submit**
+- **[Submit Form](https://forms.gle/BHgLRhmyrHoWzLj17)**
 
 **Genesis Launch**
 
@@ -90,7 +90,7 @@ html source: https://www.codecogs.com/latex/eqneditor.php
 20% of rewards will be distributed based on the Liveness Ranker Battle and Spam Tx Ranker Battle.
 
 ### Liveness Ranker Battle
- The main objective for the Liveness Ranker Battle is liveness, and each participant's rewards will depend on their ability to keep a connection alive. Participants will compete with jailed count and missed block count in the whole period (October 27, 2021 11:00 GMT - November 3, 2021 11:00 GMT). The winner will be the participant with the least number of jailed count and the least number of missed blocks. The jailed count has priority over the missed block count. The top 10 winners will receive prizes as follows.
+ The main objective for the Liveness Ranker Battle is liveness, and each participant's rewards will depend on their ability to keep a connection alive. Participants will compete with jailed count and missed block count in the whole period (October 20, 2021 11:00 GMT - November 3, 2021 11:00 GMT). The winner will be the participant with the least number of jailed count and the least number of missed blocks. The jailed count has priority over the missed block count. The top 10 winners will receive prizes as follows.
 
 | Rank |  Reward ($GAME) |
 | ---- | --------------- |
