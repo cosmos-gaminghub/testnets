@@ -44,6 +44,8 @@ nibirud keys add <your key name>
 nibirud add-genesis-account $(nibirud keys show <your key name> -a) 100000000000ugame
 ```
 
+Make sure to use `ugame` denom, not `game` like nibiru-2000.
+
 4. Create the gentx
 ```
 nibirud gentx <your key name> 100000000000ugame --commission-rate=0.1 --commission-max-rate=1 --commission-max-change-rate=0.1 --pubkey $(nibirud tendermint show-validator) --chain-id=neuron-1
