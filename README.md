@@ -1,11 +1,40 @@
-# Cosmos Gaming Hub Testnets
-This is the repositary for all the testnets of Cosmos Gaming Hub.
+# GAME Testnets
+This is the repositary for all the testnets of GAME.
 
 ## Latest Testnet
 
-See [the detail instruction](./nibiru-2000/README.md) to participate in nibiru-2000 testnet.
+See [the detail instruction](./neuron-1/README.md) to participate in the Neuron Incentivized Testnet.
 
-Download the genesis here: [genesis.json](./nibiru-2020/genesis.json)
+
+genesis.json
+
+TBA
+
+**chain ID**
+
+```sh
+neuron-1
+```
+
+**genesis time**
+
+```sh
+2021-10-20T11:00:00Z
+```
+
+**Nibiru Version**
+
+```sh
+neuron-1
+```
+
+**Seed**
+
+TBA
+
+## Past testnets
+
+### nibiru-2000
 
 ```sh
 shasum -a 256 genesis.json
@@ -36,7 +65,8 @@ v0.3
 42de54ab0ea03b96b28ca43818d9d27cbeb231bc@167.179.117.190:26656
 ```
 
-## Past testnets
+### nibiru-1000
+
 **chain ID**
 
 ```sh
