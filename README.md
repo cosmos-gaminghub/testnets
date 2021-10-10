@@ -1,4 +1,4 @@
-# Cosmos Gaming Hub Testnets
+# GAME Testnets
 This is the repositary for all the testnets of GAME.
 
 ## Latest Testnet
