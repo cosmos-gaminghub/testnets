@@ -25,8 +25,10 @@ Neuron Incentivized Testnet is the final 2 weeks testnet before mainnet launch f
 **Application Period**
 
 Until October 17, 2021 11:00 GMT, participants are required to do the following things:
-- **Submit Gentx**
+
+- **[Submit Gentx](./gentx.md)**
 - **[Submit Form](https://forms.gle/BHgLRhmyrHoWzLj17)**
+
 
 **Genesis Launch**
 
