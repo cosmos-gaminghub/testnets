@@ -41,7 +41,7 @@ October 27, 2021 11:00 GMT
 
 **Spam Tx Rank Battle Period**
 
-October 28, 2021 11:00 GMT - October 30, 2021 11:00 GMT (3 days)
+October 28, 2021 11:00 GMT - October 31, 2021 11:00 GMT (3 days)
 
 **Testnet End**
 
@@ -60,8 +60,8 @@ November 3, 2021 11:00 GMT
 |  4   |  Vote                   |  10   | Broadcast vote tx at least 3 times. | Those who succeed to send `vote` tx at least 3 times will be eligible.
 |  5   |  IBC Transfer           |  10   | Broadcast IBC Transfer tx at least once. | Those who succeed to send `IBC transfer` tx will be eligible.
 |  6   |  Upgrade Node           |  10   | Upgrade Node to the specific version and send new tx. | Those who succeed to upgrade to the node with the tag `neuron-2` and send neuron module tx will be eligible.
-|  7   |  No Jail                |  20   | Never jailed until from genesis to phase4 end. | Those who succeed to avoid being jailed until the end of Spam Tx Ranker Battle (October 30, 2021 11:00 GMT) will be eligible.
-|  8   |  Double Sign Simulation |  20   | Sign twice in the same hieght block and get jailed intentionally. | After the end of Spam Tx Ranker Battle (October 1st, 2021 11:00 GMT), Those who succeed to be jailed intentionally will be eligible. After the chain halt, validators can not be slashed by the double sign. So validators with the first 33% of voting power can be slashed and complete this mission.
+|  7   |  No Jail                |  20   | Never jailed until from genesis to phase4 end. | Those who succeed to avoid being jailed until the end of Spam Tx Ranker Battle (October 31, 2021 11:00 GMT) will be eligible.
+|  8   |  Double Sign Simulation |  20   | Sign twice in the same hieght block and get jailed intentionally. | After the end of Spam Tx Ranker Battle (October 31, 2021 11:00 GMT), Those who succeed to be jailed intentionally will be eligible. After the chain halt, validators can not be slashed by the double sign. So validators with the first 33% of voting power can be slashed and complete this mission.
 
 
 In the mission No.3/No.4/No.5/No.6, the signer must be the address registered in the application form.
@@ -109,7 +109,7 @@ html source: https://www.codecogs.com/latex/eqneditor.php
 
 ### Spam Tx Ranker Battle
 
-The main objective for the Spam Tx Ranker Battle is to stress test for the neuron network, and the winner will be the participant with the most tx posted in the Spam Tx Ranker Battle Period ( October 28, 2021 11:00 GMT - October 30, 2021 11:00 GMT). Participants must post txs from their address which is registered in the application form. Failed Tx will not be eligible to be counted. The top 10 winners will receive prizes as follows.
+The main objective for the Spam Tx Ranker Battle is to stress test for the neuron network, and the winner will be the participant with the most tx posted in the Spam Tx Ranker Battle Period ( October 28, 2021 11:00 GMT - October 31, 2021 11:00 GMT). Participants must post txs from their address which is registered in the application form. Failed Tx will not be eligible to be counted. The top 10 winners will receive prizes as follows.
 
 | Rank |  Reward ($GAME) |
 | ---- | --------------- |
