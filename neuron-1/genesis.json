@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2021-10-19T01:10:35.409226754Z",
+  "genesis_time": "2021-10-20T11:00:00Z",
   "chain_id": "neuron-1",
   "initial_height": "1",
   "consensus_params": {
@@ -285,6 +285,13 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "game156w7czrdhy97nwsxx0evw93akmxg650eqjvraz",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "game1srfr3sme9a3tpuwr8f5zcrdt5d2sqp62suptz2",
           "pub_key": null,
           "account_number": "0",
@@ -440,6 +447,20 @@
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "game1a0sf9vj0rx8wn0fqx6fw9y07g7j50g0naep55y",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "game1pqanlf776tjtj6l3ftsd5s87rr29ddsfpm72wf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "game15g5hd5cyk8ljqh3pdzhlxpgqwct6cl98pdnsp0",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -1027,13 +1048,6 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "game1kwafg44j50zakn8ulxf6fzjrts3pnk0nwhlthw",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "game12vwkq758fcsytgul7uws6xu3e9pqkcw3annwwm",
           "pub_key": null,
           "account_number": "0",
@@ -1160,6 +1174,13 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "game1tac36dsy323ell64rc2qqw4p6z97qudpk95dxz",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "game1kmd93kshyfxcwaevy4p98u4n4s3wxwnnlp0mjq",
           "pub_key": null,
           "account_number": "0",
@@ -1182,6 +1203,13 @@
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "game14h7l25urkawp8jwrahdp29lmqnkldqfhs0de6x",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "game1jg7dfnmgle69ytgj7ka3dsrgv8zceq8weucafm",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -1272,7 +1300,21 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "game1wc8gvthrk9a0jr9070ezaceqfq5w8wqga54v92",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "game1tsl9qgd660www7fmt65mkhm2qh5fnpamvfhnal",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "game1487tpq3n2xdjtuw9wewjt3vxhpsgfke29ecglf",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -1580,6 +1622,13 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "game1ml8a67e3quj6dg8ldj0ays4zx4fv85sgmcevck",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "game103nncnl7t2c8sknlehxclusq6tup0xpewvs69x",
           "pub_key": null,
           "account_number": "0",
@@ -1602,6 +1651,13 @@
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "game1h97gml3s3qh3te4xvf5hnhfujalrnt8xh4rg6p",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "game1q2xy6k2c0p07g6gdd7uqqlmg75aeuvhngg96cc",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -1783,6 +1839,15 @@
           ]
         },
         {
+          "address": "game1q2xy6k2c0p07g6gdd7uqqlmg75aeuvhngg96cc",
+          "coins": [
+            {
+              "denom": "ugame",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
           "address": "game1qvzwqgcwwgyllmrjv885nmg4sf2mztsskumcey",
           "coins": [
             {
@@ -1820,6 +1885,15 @@
         },
         {
           "address": "game1q4md3kervus4rzyz3678z0phk6e5326c9pwszv",
+          "coins": [
+            {
+              "denom": "ugame",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "game1pqanlf776tjtj6l3ftsd5s87rr29ddsfpm72wf",
           "coins": [
             {
               "denom": "ugame",
@@ -2620,6 +2694,15 @@
           ]
         },
         {
+          "address": "game1tac36dsy323ell64rc2qqw4p6z97qudpk95dxz",
+          "coins": [
+            {
+              "denom": "ugame",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
           "address": "game1taln2p8cdqcgm79t4j7f38vtz8ptekzkw0ql0r",
           "coins": [
             {
@@ -2837,6 +2920,15 @@
         },
         {
           "address": "game1wnvw27zpqwhz4t24r4ux7euslrmt966rljr2tc",
+          "coins": [
+            {
+              "denom": "ugame",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "game1wc8gvthrk9a0jr9070ezaceqfq5w8wqga54v92",
           "coins": [
             {
               "denom": "ugame",
@@ -3088,6 +3180,15 @@
           ]
         },
         {
+          "address": "game1jg7dfnmgle69ytgj7ka3dsrgv8zceq8weucafm",
+          "coins": [
+            {
+              "denom": "ugame",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
           "address": "game1jt2qyfwd65n05drt6l7hkfvrms3n6pxx52s2x9",
           "coins": [
             {
@@ -3196,6 +3297,15 @@
           ]
         },
         {
+          "address": "game15g5hd5cyk8ljqh3pdzhlxpgqwct6cl98pdnsp0",
+          "coins": [
+            {
+              "denom": "ugame",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
           "address": "game15fnk45jhx4lh3ml8e5zm4zednx7vln2d9pt3nw",
           "coins": [
             {
@@ -3269,6 +3379,24 @@
         },
         {
           "address": "game156zvznzpsv40wy6p23r6f99xpanjaz9jxvz59r",
+          "coins": [
+            {
+              "denom": "ugame",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "game156w7czrdhy97nwsxx0evw93akmxg650eqjvraz",
+          "coins": [
+            {
+              "denom": "ugame",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "game1487tpq3n2xdjtuw9wewjt3vxhpsgfke29ecglf",
           "coins": [
             {
               "denom": "ugame",
@@ -3368,15 +3496,6 @@
         },
         {
           "address": "game1kvw2eaqvx303efg620qttrzczm9e2sklwtwazq",
-          "coins": [
-            {
-              "denom": "ugame",
-              "amount": "100000000000"
-            }
-          ]
-        },
-        {
-          "address": "game1kwafg44j50zakn8ulxf6fzjrts3pnk0nwhlthw",
           "coins": [
             {
               "denom": "ugame",
@@ -3674,6 +3793,15 @@
         },
         {
           "address": "game1m7nq5r23rp9dmgn58nnknm748ryz2dkmtamysj",
+          "coins": [
+            {
+              "denom": "ugame",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "game1ml8a67e3quj6dg8ldj0ays4zx4fv85sgmcevck",
           "coins": [
             {
               "denom": "ugame",
@@ -3982,7 +4110,7 @@
       "supply": [
         {
           "denom": "ugame",
-          "amount": "284000000000000"
+          "amount": "284800000000000"
         }
       ],
       "denom_metadata": []
@@ -6226,6 +6354,67 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
+                  "moniker": "Gunslair-Stakersnodes",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "game156w7czrdhy97nwsxx0evw93akmxg650eqjvraz",
+                "validator_address": "gamevaloper156w7czrdhy97nwsxx0evw93akmxg650esmyw9c",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "/yNYuDVE91/+7evEeOSc5aJatMEUxW2diyC16nD/ceQ="
+                },
+                "value": {
+                  "denom": "ugame",
+                  "amount": "100000000000"
+                }
+              }
+            ],
+            "memo": "bbe4e31976efe73daecb49a4a9fdf21baeb3786e@65.108.85.255:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A6um3sJwpjC2YhzOnFPQ2PlFPBg2monRHrds4EW3axbe"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "xK3/K5FuZHKp+urC/qI+7C+Rg50r5sOt+eztkFHphoR9gE2FaasAU0JcMI/TPOCgbsdBLGS/SOYYXqycMq1Rhw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
                   "moniker": "HOA",
                   "identity": "",
                   "website": "",
@@ -7621,6 +7810,128 @@
           },
           "signatures": [
             "PZnU7V3XMy0O7KJo6vz+rlY/3mYORcdv1xereyFKlhtDD+CyCUe363lsG8e8r5TRde3SnXwNEuS3SgwfEh3RJg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Mercury",
+                  "identity": "48CE867E6AB5ED72",
+                  "website": "",
+                  "security_contact": "Mercury.Planetes@gmail.com",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "game1pqanlf776tjtj6l3ftsd5s87rr29ddsfpm72wf",
+                "validator_address": "gamevaloper1pqanlf776tjtj6l3ftsd5s87rr29ddsf3jk8kn",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "01Nn0ZFlh2qak6QlX5kDRHnO7g4GU4xsQiAy00RzU2I="
+                },
+                "value": {
+                  "denom": "ugame",
+                  "amount": "100000000000"
+                }
+              }
+            ],
+            "memo": "e727bc97956bc3e5f634e6ec50aeef170c01cfeb@[2a01:4f8:271:2ad2::9503]:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AiQmz3Fo09NVFA/gTMHgxuC9LfjDBA54GeQXFivNvg+8"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "h0kZmp8hr2vRZ53UNdgS1wF0gm+ofuF6S7cL5gERKP1ApLKW7yy815PcSa18l8nJA6NxuqPUL9sG77cTDnWCYQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Mila_59",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "game15g5hd5cyk8ljqh3pdzhlxpgqwct6cl98pdnsp0",
+                "validator_address": "gamevaloper15g5hd5cyk8ljqh3pdzhlxpgqwct6cl983ymae4",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "iAWRfoiB7/q6AR4fQba29RX0+G+THIG/A+pBI1pNEc4="
+                },
+                "value": {
+                  "denom": "ugame",
+                  "amount": "100000000000"
+                }
+              }
+            ],
+            "memo": "a96d9099ba6a06aac9a9db93ae503c928fb968b0@78.46.215.115:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A4/w/EkEbqi7DmZVs9dhYbqb87uEPRLTdsUNNiD6GxSK"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "V89tbj7unHZh2td8S+0TMntpgh24+GdMtFPvXvCLW+QZ0nZSPXyjYm5aSGF/MN6WRMCzjD11htb8brDY3566EQ=="
           ]
         },
         {
@@ -12692,67 +13003,6 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "eguegu",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "1.000000000000000000",
-                  "max_change_rate": "0.100000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "game1kwafg44j50zakn8ulxf6fzjrts3pnk0nwhlthw",
-                "validator_address": "gamevaloper1kwafg44j50zakn8ulxf6fzjrts3pnk0n77hx05",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "Bfxiap3/sTHMzQ6x/sPEyMbwHdhs6rGj3Bfmu/cNSAA="
-                },
-                "value": {
-                  "denom": "ugame",
-                  "amount": "100000000000"
-                }
-              }
-            ],
-            "memo": "b51ae4173ff05c831665b65f12f2c250e5e84a9e@172.31.170.43:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A44fcLY5i5KJzd3i/SpxIheOt1n9eeLbpx/YE/QWH4+/"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            }
-          },
-          "signatures": [
-            "fJPXCyCbWtftdj51GfVzFt8VmS7q2uwtxd4asZZPc9NhZvQQjAYZZldleNDsUu9UuFEDtrleJnq6Ux05dXlBRw=="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
                   "moniker": "envy",
                   "identity": "",
                   "website": "",
@@ -14095,6 +14345,67 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
+                  "moniker": "Validatrium",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "game1tac36dsy323ell64rc2qqw4p6z97qudpk95dxz",
+                "validator_address": "gamevaloper1tac36dsy323ell64rc2qqw4p6z97qudpxvuq7c",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "QCZHflJXdwleAUHVuc3kNczcKDjfxC8uzm7zZ/VpFio="
+                },
+                "value": {
+                  "denom": "ugame",
+                  "amount": "100000000000"
+                }
+              }
+            ],
+            "memo": "55eddd7d5470d0dfa49bf14bb0216b4524e6d532@10.72.2.119:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AyYjAqXmlYWaoXQb8cGm5ryVGmsALyQvx9wjDwGI/YpJ"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "SWf5A/lTeAjKbsfOPpshwNMPfiy/IfYooCUMU1J8MytDWc71vq0kO/IxNiNpQIsR2BrE/KM0C8Sfu/IeEmz9Ng=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
                   "moniker": "gulzsp",
                   "identity": "02D00456DF77CE5B",
                   "website": "",
@@ -14331,6 +14642,67 @@
           },
           "signatures": [
             "xtvzvPS6+OTbPI/YCQ9a4nacGlZYG8kPL3gYNaUfwpwS/9rf4YjFPaz+DhXrVgw8o3oCw4WLWB7l2oxm3ro8nQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "hudasboy",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "game1jg7dfnmgle69ytgj7ka3dsrgv8zceq8weucafm",
+                "validator_address": "gamevaloper1jg7dfnmgle69ytgj7ka3dsrgv8zceq8wf4ss3p",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "ao+R4UowLTeJMdXEUbpcPYIf7iw+4/b/vNc7uyRwgmA="
+                },
+                "value": {
+                  "denom": "ugame",
+                  "amount": "100000000000"
+                }
+              }
+            ],
+            "memo": "de6224cb2afae75aeeda6bdb2017982189d54a1c@65.108.84.100:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AnXwmYvhRgmnc4y98+rYiDPMx4IVtu3gnoDk5PDmK9zT"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "Ykdqs1jplczDobGCZq5D80UtM0uz3UNhZajKXn+OTH4/tlhrxcdxq+CTe511lKB5J6CvQXakdp7kwvsdI6xWXA=="
           ]
         },
         {
@@ -15071,6 +15443,67 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
+                  "moniker": "lk",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "game1wc8gvthrk9a0jr9070ezaceqfq5w8wqga54v92",
+                "validator_address": "gamevaloper1wc8gvthrk9a0jr9070ezaceqfq5w8wqgdaapas",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "YudZPwSXv8UhZvIDUfHpDYqO4IqS/mPub4yy5MolhBE="
+                },
+                "value": {
+                  "denom": "ugame",
+                  "amount": "100000000000"
+                }
+              }
+            ],
+            "memo": "da0a7aa2957a377ff08676a2e2d04129652a5126@161.97.107.3:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A0Pz/ZRIdzFbz+9NK28tyR/OWsd7SrOg4MaIuUaqxSj5"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "bm9v1EIN2HKNHpc1EDB9pwO/nq4BkYh+DmHQRhJiNzlp2LZBuzSXEfUy8wNZ2s6nVNX9kgALkTwFexqHo5sl4A=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
                   "moniker": "lopes",
                   "identity": "",
                   "website": "",
@@ -15124,6 +15557,67 @@
           },
           "signatures": [
             "4i5E/8PN+otsofsaFmO2qMcAE95U7NFgaVD5G/BSxPkIt574MtzN3Hy3dYEm/Ul6kUk/dZZzCgfXn7BIZK9E0g=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "luffyvn",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "game1487tpq3n2xdjtuw9wewjt3vxhpsgfke29ecglf",
+                "validator_address": "gamevaloper1487tpq3n2xdjtuw9wewjt3vxhpsgfke24ss98n",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "V6itwAv7/facnbHuVj5hRLj4s7IgQQ2pKIZd6lEijtE="
+                },
+                "value": {
+                  "denom": "ugame",
+                  "amount": "100000000000"
+                }
+              }
+            ],
+            "memo": "8c6fb922daa940a5aeaa6f8f937fa4f482020ed2@143.198.84.154:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AwU2s499IQUcL/OebSnhxqmX+LRFSNCohmYHhm88fyWM"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "scxJVkDtYr9I8Jzlpum6I7rug93RS/bW9DzRfNpqQ1tzQnt1LAnEseki80NKR6Za0k+5CrHG2XsmSzUMseG3VQ=="
           ]
         },
         {
@@ -17755,6 +18249,67 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
+                  "moniker": "sonn",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "game1ml8a67e3quj6dg8ldj0ays4zx4fv85sgmcevck",
+                "validator_address": "gamevaloper1ml8a67e3quj6dg8ldj0ays4zx4fv85sgt33pqv",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "KdqnGXboZq5P1fLwYfQC5FxX0vUNJskf28JbIu97CXM="
+                },
+                "value": {
+                  "denom": "ugame",
+                  "amount": "100000000000"
+                }
+              }
+            ],
+            "memo": "921e972e0b26f409901d3a5c41500923f01d8562@134.209.106.22:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A31/0N6bNgXgOsyG1Ic0BIslzvo4wUNOJDF4shuGxWjI"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "8+tbXXQzVUrAffj4c26F0le7gBE3I/1XhSbTnGXibssx5Fcwsp+vhMpEW4UbItKRMweimoNJtxZy2hoWAzNCYg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
                   "moniker": "sorare",
                   "identity": "",
                   "website": "",
@@ -17991,6 +18546,67 @@
           },
           "signatures": [
             "jEbA73/pEH01yKuS4JKka4eT3Q4iw1vRSq6UVkt9MShEWcFpG8yzVoAiLQlu+5Y2Ex8in4V6Vv/jdSz0/Nyn+g=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "thuyld",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "game1q2xy6k2c0p07g6gdd7uqqlmg75aeuvhngg96cc",
+                "validator_address": "gamevaloper1q2xy6k2c0p07g6gdd7uqqlmg75aeuvhncpdhqz",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "62QL73fpShrU7eiRkNKM6zMzo3BVGVjhdqepyHpGJxc="
+                },
+                "value": {
+                  "denom": "ugame",
+                  "amount": "100000000000"
+                }
+              }
+            ],
+            "memo": "2af3d8f78bd6b46a939a5743215317146b90dded@172.31.30.232:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "ApsjAPG+E40IKDJD2lEzY1fqPLsH65g96pKdnsTskkyz"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "Mk4bBCc5cVDbHqJFkKM6AiK//Y8dEvtorADd+8I9qHkhcRZZv42vhQ9YNPmzgODqruOBZGAkIRaTI3XXJA+QoQ=="
           ]
         },
         {
@@ -18925,7 +19541,7 @@
         "max_deposit_period": "172800s"
       },
       "voting_params": {
-        "voting_period": "172800s"
+        "voting_period": "86400s"
       },
       "tally_params": {
         "quorum": "0.334000000000000000",
@@ -18983,8 +19599,8 @@
     "params": null,
     "slashing": {
       "params": {
-        "signed_blocks_window": "100",
-        "min_signed_per_window": "0.500000000000000000",
+        "signed_blocks_window": "10000",
+        "min_signed_per_window": "0.050000000000000000",
         "downtime_jail_duration": "600s",
         "slash_fraction_double_sign": "0.050000000000000000",
         "slash_fraction_downtime": "0.010000000000000000"
@@ -18994,8 +19610,8 @@
     },
     "staking": {
       "params": {
-        "unbonding_time": "1814400s",
-        "max_validators": 100,
+        "unbonding_time": "86400s",
+        "max_validators": 300,
         "max_entries": 7,
         "historical_entries": 10000,
         "bond_denom": "ugame"
@@ -19012,8 +19628,8 @@
       "port_id": "transfer",
       "denom_traces": [],
       "params": {
-        "send_enabled": true,
-        "receive_enabled": true
+        "send_enabled": false,
+        "receive_enabled": false
       }
     },
     "upgrade": {},
