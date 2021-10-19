@@ -63,11 +63,17 @@ You can also use Neuron Incentive Testnet Community Seed Node in [hackmd](https:
 sed -i 's/minimum-gas-prices = ""/minimum-gas-prices = "0.0001ugame"/g' ~/.nibiru/config/app.toml
 ```
 
-5. start
+5. Run the node as a separate process with SCREEN installed first.
 ```
+apt install screen
+screen -S nibirud
 nibirud start
 ```
-
+To detach screen press Ctrl+A then D
+To return to a closed window, enter the command: 
+```
+screen -r
+```
 
 6. check sign status
 ```
