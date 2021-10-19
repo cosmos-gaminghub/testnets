@@ -58,6 +58,11 @@ seeds = "ac175b66221b555751b3a5fb2e6a8844ba01228d@167.179.104.210:26656"
 
 You can also use Neuron Incentive Testnet Community Seed Node in [hackmd](https://hackmd.io/y_JUOikHTvudW90oGySdWw)
 
+4.1 Edit the app.toml file to prevent spamming. It rejects incoming transactions with less than the minimum gas prices.
+```
+sed -i 's/minimum-gas-prices = ""/minimum-gas-prices = "0.0001ugame"/g' ~/.nibiru/config/app.toml
+```
+
 5. start
 ```
 nibirud start
