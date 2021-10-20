@@ -55,7 +55,7 @@ November 3, 2021 11:00 GMT
 | ---- | ----------------------- | ----- | ------------------------------- | --------------|
 |  0   |  Submit Gentx           |   0   | Submit Gentx before the deadline. | This mission is absolute and must be completed on time. Follow [the instruction](./gentx.md) to submit gentx.
 |  1   |  Sign Genesis Block     |  10   | Validator node should be up when starting genesis.| Those who succeed to commit  genesis block will be eligible.
-|  2   |  Share Seed Node        |  10   | Add your seed node info in [this hackmd](https://hackmd.io/y_JUOikHTvudW90oGySdWw). | Those who share info on valid seed node will be eligible.
+|  2   |  Share P2P & RPC Node   |  10   | Add your P2P & RPC node info in [this hackmd](https://hackmd.io/y_JUOikHTvudW90oGySdWw). | Those who share info on valid RPC endpoint node will be eligible.
 |  3   |  Delegate               |  10   | Broadcast delegate tx to at least once. | Those who succeed to send `delegate` tx will be eligible.
 |  4   |  Vote                   |  10   | Broadcast vote tx at least 3 times. | Those who succeed to send `vote` tx at least 3 times will be eligible.
 |  5   |  IBC Transfer           |  10   | Broadcast IBC Transfer tx at least once. | Those who succeed to send `IBC transfer` tx will be eligible.
@@ -127,7 +127,6 @@ The main objective for the Spam Tx Ranker Battle is to stress test for the neuro
 ## Mission and Ranker Battle Flow
 
 ### All Phase
-- [Share Seed Node](#missions)
 - [Delegate](#missions)
 - [Vote](#missions)
 - [IBC transfer](#missions)
@@ -137,9 +136,11 @@ The main objective for the Spam Tx Ranker Battle is to stress test for the neuro
 - [Sign Genesis Block](#missions)
 ### Phase2
 - [Upgrade Node](#missions)
+- [Share RPC & P2P Node](#missions)(before Phase 3)
+### Phase3
+- **[Spam Tx Ranker Battle](#spam-tx-ranker-battle)**
 ### Phase1~Phase3
 - [No Jail](#missions)
-- **[Spam Tx Ranker Battle](#spam-tx-ranker-battle)**
 ### Phase4
 - [Double Sign Simulation](#missions)
 
