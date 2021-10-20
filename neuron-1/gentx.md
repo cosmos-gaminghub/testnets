@@ -18,7 +18,7 @@
 - You have to wait 3days to unbond your token.
 
 
-## GenTx Collection (Until October 17, 2021 11:00 GMT)
+## GenTx Collection (~~Until October 17, 2021 11:00 GMT~~ End)
 0. Install nibiru
 ```
 git clone https://github.com/cosmos-gaminghub/nibiru.git
