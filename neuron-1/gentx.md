@@ -6,11 +6,13 @@
 ## genesis params (changed from default)
 
 ```
+"max_validators": 300
+"send_enabled": false
+"receive_enabled": false
 "signed_blocks_window": "10000"
 "min_signed_per_window": "0.050000000000000000"
-"unbonding_time": "259200s"
-"send_enabled": "false"
-"receive_enabled": "false"
+"unbonding_time": "86400s"
+"voting_period": "86400s"
 ```
 - You have to keep up at least 5% in the last 10000block for avoid downtime slashing.
 - You have to wait 3days to unbond your token.
