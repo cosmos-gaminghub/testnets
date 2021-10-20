@@ -100,7 +100,7 @@ TBA
 
 ### Mission 7
 **CheckPoint**
-- Does the validator emit no `slash` event in BeginBlockEvent before the end of Smap Tx Ranker Battle
+- Does the validator emit no `slash` event in BeginBlockEvent before the end of Spam Tx Ranker Battle
 
 ### Mission 8
 TBA
