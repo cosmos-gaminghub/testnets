@@ -7,8 +7,10 @@
 
 All participants are required to upgrade their node to `neuron-1.1` before genesis launch.
 
+ref: https://github.com/cosmos-gaminghub/nibiru/releases/tag/neuron-1.1
 
 ```sh
+cd nibiru
 git fetch --all --tags
 git checkout -b neuron-1.1 tags/neuron-1.1
 make install
