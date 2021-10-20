@@ -81,10 +81,14 @@ You can find your validator pubkey in `priv_validator_state.json`. If you've alr
 **CheckPoint**
 - Does the validator commit genesis block (http://167.179.104.210:26657/commit?height=1) after the successful launch
 
-### Mission 2 Share Seed Node
+**Attention**
+
+The team has prepared four validator nodes in advance to prevent the launch delay due to lack of voting power. These validators will be online and signed at Oct 20th 11:30 GMT. Therefore, please note that you must be online between Oct 20th 11:00 and 11:30 GMT in order to clear Mission 1.
+
+### Mission 2 Share P2P(26656) & RPC(26657) Node
 **Deadline: Oct 28th 11:00 GMT**
-- set up seed node with RPC endpoint open
-- write seed info in [hackmd](https://hackmd.io/y_JUOikHTvudW90oGySdWw)
+- set up the node with P2P & RPC endpoint open
+- write P2P and RPC info in [hackmd](https://hackmd.io/y_JUOikHTvudW90oGySdWw)
 
 **CheckPoint**
 - Does the seed has valid RPC endpoint (port:26657)
