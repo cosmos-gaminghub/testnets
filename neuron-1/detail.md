@@ -144,6 +144,7 @@ ref: https://github.com/cosmos/cosmos-sdk/blob/master/x/slashing/spec/06_events.
 **CheckPoint**
 - The challenge is to see how many txs can be sent from **the registered address** during Spam Tx Rank Battle Period.
 - Transactions from operator address will not be counted (Ex. `/cosmos.slashing.v1beta1.MsgUnjail`, `/cosmos.staking.v1beta1.MsgEditValidator`).
+- Failed transactions will not be counted (Out of Gas etc).
 
 **Attention**
 
