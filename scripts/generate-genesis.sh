@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NETWORK=neuron-1
+NETWORK=nibiru-3000
 DAEMON=nibirud
 HOME_DIR=~/.nibiru
 CONFIG=~/.nibiru/config
