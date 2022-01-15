@@ -1,5 +1,5 @@
 #!/bin/bash
-NETWORK=neuron-1
+NETWORK=nibiru-3000
 MAX_BOND=100000000000
 
 extraquery='[.body.messages[] | select(."@type" != "/cosmos.staking.v1beta1.MsgCreateValidator")] | length'
@@ -18,7 +18,7 @@ for path in $NETWORK/gentxs/*.json; do
     exit 1
   fi
 
-  # only allow "game" tokens to be bonded
+  # only allow "ugame" tokens to be bonded
   if [ "$(jq "$denomquery" "$path")" != "0" ]; then
     echo "invalid denomination"
     exit 1
