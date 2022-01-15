@@ -3,10 +3,41 @@ This is the repositary for all the testnets of GAME.
 
 ## Latest Testnet
 
+### nibiru-3000
+**genesis.json**
+
+TBA
+
+**chain ID**
+
+```sh
+neuron-3000
+```
+
+**genesis time**
+
+```sh
+2022-01-21T11:00:00Z
+```
+
+**Nibiru Version**
+
+```sh
+v0.9
+```
+
+**Seed**
+
+TBA
+
+## Past testnets
+
+### neuron-1
+
 See [the detail instruction](./neuron-1/detail.md) and [the overview](./neuron-1/README.md) to participate in the Neuron Incentivized Testnet.
 
 
-genesis.json
+**genesis.json**
 ```sh
 shasum -a 256 .nibiru/config/genesis.json
 cdd706fe8060bba8c2aa8443c0314cb8f4d719bcb691a325bb989a06c682ccb1  .nibiru/config/genesis.json
@@ -36,8 +67,6 @@ seeds = "ac175b66221b555751b3a5fb2e6a8844ba01228d@167.179.104.210:26656"
 ```
 
 You can also use Neuron Incentive Testnet Community Seed Node in [hackmd](https://hackmd.io/y_JUOikHTvudW90oGySdWw).
-
-## Past testnets
 
 ### nibiru-2000
 
