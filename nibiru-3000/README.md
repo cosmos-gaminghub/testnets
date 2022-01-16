@@ -42,7 +42,7 @@ January 26, 2021 11:00 GMT
 0. Install nibiru
 ```
 git clone https://github.com/cosmos-gaminghub/nibiru.git
-cd nibiru && git checkout -b v0.9 tags/0.9
+cd nibiru && git checkout -b v0.9 tags/v0.9
 make install
 ```
 
