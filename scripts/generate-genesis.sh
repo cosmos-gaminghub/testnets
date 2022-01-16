@@ -1,13 +1,13 @@
 #!/bin/bash
 
-NETWORK=neuron-1
+NETWORK=nibiru-3000
 DAEMON=nibirud
 HOME_DIR=~/.nibiru
 CONFIG=~/.nibiru/config
 TOKEN_DENOM=ugame
 FAUCET_ACCOUNTS=(
-  "nibiru1as53rfgmtg92aga7tuxmv3kj4qr5j3475u8653"
-  "nibiru1sa4zt93ymsvfqkpwn27950uaurv2jp4dtvtvwn"
+  "game1as53rfgmtg92aga7tuxmv3kj4qr5j347ahk0t0"
+  "game1sa4zt93ymsvfqkpwn27950uaurv2jp4dz86e3d"
 )
 
 rm $CONFIG/genesis.json
@@ -25,9 +25,9 @@ for i in $NETWORK/gentxs/*.json; do
 done
 
 # for team validators
-for i in $NETWORK/gentxs/cgh/*.json; do
+for i in $NETWORK/gentxs/team/*.json; do
   echo $i
-  $DAEMON add-genesis-account $(jq -r '.body.messages[0].delegator_address' $i) 500000000000$TOKEN_DENOM
+  $DAEMON add-genesis-account $(jq -r '.body.messages[0].delegator_address' $i) 20000000000000$TOKEN_DENOM
   cp $i $CONFIG/gentx/
 done
 
