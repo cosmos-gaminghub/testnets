@@ -9,17 +9,17 @@ nibiru-3000 is the final testnet before mainnet launch. The main purpose of this
 ## Schedule
 **Genesis Validators Application Period**
 
-Until January 19, 2021 11:00 GMT
+Until January 19, 2022 11:00 GMT
 
 - [**Submit Gentx**](#gentx-collection)
 
 **Genesis Launch**
 
-January 21, 2021 11:00 GMT
+January 21, 2022 11:00 GMT
 
 **Node Upgrade Event**
 
-January 26, 2021 11:00 GMT
+January 26, 2022 11:00 GMT
 
 ## genesis params (changed from default)
 
