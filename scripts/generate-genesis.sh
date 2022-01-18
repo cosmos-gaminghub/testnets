@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NETWORK=neuron-1
+NETWORK=nibiru-3000
 DAEMON=nibirud
 HOME_DIR=~/.nibiru
 CONFIG=~/.nibiru/config
@@ -25,11 +25,11 @@ for i in $NETWORK/gentxs/*.json; do
 done
 
 # for team validators
-#for i in $NETWORK/gentxs/cgh/*.json; do
-#  echo $i
-#  $DAEMON add-genesis-account $(jq -r '.body.messages[0].delegator_address' $i) 500000000000$TOKEN_DENOM
-#  cp $i $CONFIG/gentx/
-#done
+for i in $NETWORK/gentxs/team/*.json; do
+  echo $i
+  $DAEMON add-genesis-account $(jq -r '.body.messages[0].delegator_address' $i) 20000000000000$TOKEN_DENOM
+  cp $i $CONFIG/gentx/
+done
 
 for addr in "${FAUCET_ACCOUNTS[@]}"; do
     echo "Adding faucet addr: $addr"
