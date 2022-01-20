@@ -122,6 +122,8 @@ vim $HOME/.nibiru/config/config.toml
 nibirud start
 ```
 
+If you run before the genesis time, you can see the message `Genesis time is in the future. Sleeping until then...`.
+
 6. check sign status
 ```
 curl  -s localhost:26657/dump_consensus_state | jq '.result.round_state.votes[0]'

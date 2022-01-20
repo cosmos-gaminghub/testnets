@@ -4,6 +4,9 @@ This is the repositary for all the testnets of GAME.
 ## Latest Testnet
 
 ### nibiru-3000
+
+See [the detail instruction](./nibiru-3000/README.md).
+
 **genesis.json**
 
 ```sh
