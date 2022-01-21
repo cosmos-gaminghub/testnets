@@ -81,19 +81,19 @@ nibirud gentx <your key name> 100000000000ugame --commission-rate=0.1 --commissi
 
 ## Genesis Launch
 
-1. get genesis.json
+1. Get genesis.json
 ```sh
 curl -o $HOME/.nibiru/config/genesis.json https://raw.githubusercontent.com/cosmos-gaminghub/testnets/master/nibiru-3000/genesis.json
 ```
 
-2. check genesis.json is correct
+2. Check genesis.json is correct
 
 ```sh
 shasum -a 256 ~/.nibiru/config/genesis.json
 0ef249be8ba5706d5702eb55834035bbc06744be70bb64d8d57aacea70d36445  /root/.nibiru/config/genesis.json
 ```
 
-3. check your validator state is initial
+3. Check your validator state is initial
 
 correct ex:
 ```sh
@@ -107,24 +107,44 @@ cat .nibiru/data/priv_validator_state.json
 
 If you have already started, then should reset the state with the command `nibirud unsafe-reset-all`. The command delete all blockchain data but keep genesis.json and node configs.
 
-4. add seed node info
+4. Add seed node info
 
 ```sh
-vim $HOME/.nibiru/config/config.toml
+sed -i -e "s%^seeds *=.*%seeds = \"4d6c590024b3a24985e910b172fc3b7d3493648a@45.32.39.253:26656\"%; " $HOME/.nibiru/config/config.toml
 ```
 
+5. Create a service file
 ```sh
-4d6c590024b3a24985e910b172fc3b7d3493648a@45.32.39.253:26656
+printf "[Unit]
+Description=Game Node
+After=network-online.target
+
+[Service]
+User=$USER
+ExecStart=`which nibirud` start
+Restart=on-failure
+RestartSec=3
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target" > /etc/systemd/system/nibirud.service
 ```
 
-5. start
+6. Run the service file
+```sh
+sudo systemctl daemon-reload
+sudo systemctl enable nibirud
+sudo systemctl restart nibirud
 ```
-nibirud start
+
+7. View a log of the node
+```sh
+sudo journalctl -fn 100 -u nibirud
 ```
 
 If you run before the genesis time, you can see the message `Genesis time is in the future. Sleeping until then...`.
 
-6. check sign status
+8. Check sign status
 ```
 curl  -s localhost:26657/dump_consensus_state | jq '.result.round_state.votes[0]'
 ```
