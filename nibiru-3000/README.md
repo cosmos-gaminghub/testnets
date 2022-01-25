@@ -171,7 +171,7 @@ Check how to use Cosmovisor in [our docs](https://docs.gamenet.one/config/cosmov
 
 Check proposal info in [the nibiru-3000 explorer](http://nibiru-3000.game-explorer.io/).
 
-```toml
+```
 proposals:
 - content:
     '@type': /cosmos.upgrade.v1beta1.SoftwareUpgradeProposal
@@ -203,6 +203,7 @@ proposals:
   voting_start_time: "2022-01-25T03:06:18.766424741Z"
 ```
 
+### Action required
 
 1. vote this proposal
 
