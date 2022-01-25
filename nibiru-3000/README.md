@@ -13,7 +13,7 @@ Until January 19, 2022 11:00 GMT
 
 - ~~[**Submit Gentx**](#gentx-collection)~~
 
-**Genesis Launch**
+**~~Genesis Launch~~**
 
 January 21, 2022 11:00 GMT
 
@@ -80,6 +80,8 @@ nibirud gentx <your key name> 100000000000ugame --commission-rate=0.1 --commissi
 
 
 ## Genesis Launch
+<details>
+<summary>detail</summary>
 
 1. Get genesis.json
 ```sh
@@ -158,8 +160,64 @@ You can find your validator pubkey in `priv_validator_state.json`. If you've alr
 
 The team has prepared **NO** validator node so that there is a potential launch delay due to lack of voting power. We will wait +2 hours from planned launch time but if voting power is not sufficiently gathered, we will publish new genesis.json with team validators and launch next day.
 
+</details>
+
 ## Node Upgrade Event
-In this testnet, we will update nibirud version from v0.9 to [sm-upgrade](https://github.com/cosmos-gaminghub/nibiru/releases/tag/sm-upgrade).
+In this testnet, we will update nibirud version from [v0.9](https://github.com/cosmos-gaminghub/nibiru/releases/tag/v0.9) to [sm-upgrade](https://github.com/cosmos-gaminghub/nibiru/releases/tag/sm-upgrade).
 We will experience `softwareUpgrade` through governance voting, and all nodes(including validators) are required to switch their binary at the designated block height. Manual update and automatic update are both fine. If you haven't try automatic update with `Cosmovisor`, you can try in this testnet.
 
 Check how to use Cosmovisor in [our docs](https://docs.gamenet.one/config/cosmovisor.html).
+
+
+Check proposal info in [the nibiru-3000 explorer](http://nibiru-3000.game-explorer.io/).
+
+```toml
+proposals:
+- content:
+    '@type': /cosmos.upgrade.v1beta1.SoftwareUpgradeProposal
+    description: In nibiru-3000 testnet, we will update nibirud version from v0.9
+      to sm-upgrade. We will experience softwareUpgrade through governance voting,
+      and all nodes(including validators) are required to switch their binary at 64000.
+      Manual update and automatic update are both fine. After the upgrade is successful,
+      you can use signal command.
+    plan:
+      height: "64000"
+      info: '{"binaries":{"linux/amd64":"https://github.com/cosmos-gaminghub/nibiru/releases/download/sm-upgrade/nibirud-sm-upgrade?checksum=sha256:78d44fe51c1c04a7b0ec7b77cd197a324290659548d80d0d8526094512e8e70b"}}'
+      name: signal-module-upgrade
+      time: "0001-01-01T00:00:00Z"
+      upgraded_client_state: null
+    title: sm-upgrade
+  deposit_end_time: "2022-01-27T03:04:52.511678383Z"
+  final_tally_result:
+    abstain: "0"
+    "no": "0"
+    no_with_veto: "0"
+    "yes": "0"
+  proposal_id: "1"
+  status: PROPOSAL_STATUS_VOTING_PERIOD
+  submit_time: "2022-01-25T03:04:52.511678383Z"
+  total_deposit:
+  - amount: "10000000"
+    denom: ugame
+  voting_end_time: "2022-01-26T03:06:18.766424741Z"
+  voting_start_time: "2022-01-25T03:06:18.766424741Z"
+```
+
+
+1. vote this proposal
+
+You can vote simply from nibirud
+```
+nibirud tx gov vote 1 yes --from=<your wallet name> --chain-id=nibiru-3000
+
+```
+
+Other way is using [GAME GS Pad](https://gs-pad.gamenet.one/).
+
+
+2. prepare for the update
+
+If you are using Cosmovisor, you have to build `sm-module` binary before reaching upgrade height.
+
+
+If you are not using Cosmovisor, you will see the message `ERR UPGRADE "sm-upgrade" NEEDED at height: 64000`, then stop nibirud process manually, update bianry and start again.
