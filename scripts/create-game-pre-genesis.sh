@@ -11,6 +11,8 @@ rm -rf $HOME_DIR
 
 $DAEMON init $NETWORK --chain-id $NETWORK
 
+rm -rf $CONFIG/gentx && mkdir $CONFIG/gentx
+
 gzip -d $NETWORK/pre-genesis.json.gz
 cp $NETWORK/pre-genesis.json $GENESIS
 
@@ -25,5 +27,5 @@ $DAEMON validate-genesis
 
 cp $GENESIS $NETWORK
 
-timeout 10s $DAEMON start || ( [[ $? -eq 124 ]] && \
+timeout 20s $DAEMON start || ( [[ $? -eq 124 ]] && \
 echo "WARNING: Timeout reached, but that's OK" )
