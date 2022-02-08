@@ -1,6 +1,6 @@
 #!/bin/bash
-NETWORK=nibiru-3000
-MAX_BOND=100000000000
+NETWORK=game-pre
+MAX_BOND=111000000000
 
 extraquery='[.body.messages[] | select(."@type" != "/cosmos.staking.v1beta1.MsgCreateValidator")] | length'
 
