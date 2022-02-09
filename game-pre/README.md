@@ -1,6 +1,6 @@
 # Game Pre Testnet
 
-Game Pre Testnet is the final testnet before mainnet launch for genesis validators. The main purpose of this testnet is to simulate mainnet launch process with the orchestration of validators. Validators are required to check their address is correct and submitting gentx in a right way.
+Game Pre Testnet is the final testnet before mainnet launch for genesis validators. The main purpose of this testnet is to simulate mainnet launch process with the orchestration of validators. Validators are required to check their address is correct and submit gentx in a right way.
 
 **This testnet is mainly for Neuron Testnet Winners. Check your reward** [**here**](https://github.com/cosmos-gaminghub/mainnet/tree/main/accounts)
 
