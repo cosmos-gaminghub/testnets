@@ -22,26 +22,28 @@ Neuron Incentivized Testnet is the final 2 weeks testnet before mainnet launch f
 -->
 
 ## Schedule
-**Application Period**
+~~**Application Period**~~
 
 Until October 17, 2021 11:00 GMT, participants are required to do the following things:
 
-- **[Submit Gentx](./gentx.md)**
-- **[Submit Form](https://forms.gle/BHgLRhmyrHoWzLj17)**
+- ~~**[Submit Gentx](./gentx.md)**~~
+- ~~**[Submit Form](https://forms.gle/BHgLRhmyrHoWzLj17)**~~
 
 
-**Genesis Launch**
+**~~Genesis Launch~~**
 
 October 20, 2021 11:00 GMT
 
-**Node Upgrade Event**
+**~~Node Upgrade Event~~**
+
+Because of [the node restart crash issue](https://github.com/cosmos-gaminghub/testnets/issues/371), we decided to skip this task and all participants will be considered to have completed this task.
 
 October 27, 2021 11:00 GMT
 
 
 **Spam Tx Rank Battle Period**
 
-October 28, 2021 11:00 GMT - October 30, 2021 11:00 GMT (3 days)
+October 28, 2021 11:00 GMT - October 31, 2021 11:00 GMT (3 days)
 
 **Testnet End**
 
@@ -55,13 +57,15 @@ November 3, 2021 11:00 GMT
 | ---- | ----------------------- | ----- | ------------------------------- | --------------|
 |  0   |  Submit Gentx           |   0   | Submit Gentx before the deadline. | This mission is absolute and must be completed on time. Follow [the instruction](./gentx.md) to submit gentx.
 |  1   |  Sign Genesis Block     |  10   | Validator node should be up when starting genesis.| Those who succeed to commit  genesis block will be eligible.
-|  2   |  Share Seed Node        |  10   | Add your seed node info in [this hackmd](https://hackmd.io/y_JUOikHTvudW90oGySdWw). | Those who share info on valid seed node will be eligible.
+|  2   |  Share P2P & RPC Node   |  10   | Add your P2P & RPC node info in [this hackmd](https://hackmd.io/y_JUOikHTvudW90oGySdWw). | Those who share info on valid RPC endpoint node will be eligible.
 |  3   |  Delegate               |  10   | Broadcast delegate tx to at least once. | Those who succeed to send `delegate` tx will be eligible.
 |  4   |  Vote                   |  10   | Broadcast vote tx at least 3 times. | Those who succeed to send `vote` tx at least 3 times will be eligible.
 |  5   |  IBC Transfer           |  10   | Broadcast IBC Transfer tx at least once. | Those who succeed to send `IBC transfer` tx will be eligible.
 |  6   |  Upgrade Node           |  10   | Upgrade Node to the specific version and send new tx. | Those who succeed to upgrade to the node with the tag `neuron-2` and send neuron module tx will be eligible.
-|  7   |  No Jail                |  20   | Never jailed until from genesis to phase4 end. | Those who succeed to avoid being jailed until the end of Spam Tx Ranker Battle (October 30, 2021 11:00 GMT) will be eligible.
-|  8   |  Double Sign Simulation |  20   | Sign twice in the same hieght block and get jailed intentionally. | After the end of Spam Tx Ranker Battle (October 1st, 2021 11:00 GMT), Those who succeed to be jailed intentionally will be eligible. After the chain halt, validators can not be slashed by the double sign. So validators with the first 33% of voting power can be slashed and complete this mission.
+|  7   |  No Jail                |  20   | Never jailed until from genesis to phase4 end. | Those who succeed to avoid being jailed until the end of Spam Tx Ranker Battle (October 31, 2021 11:00 GMT) will be eligible.
+|  8   |  Double Sign Simulation |  20   | Sign twice in the same hieght block and get jailed intentionally. | After the end of Spam Tx Ranker Battle (October 31, 2021 11:00 GMT), Those who succeed to double sign intentionally will be eligible.
+
+Check the detail [here](./detail.md).
 
 
 In the mission No.3/No.4/No.5/No.6, the signer must be the address registered in the application form.
@@ -109,7 +113,7 @@ html source: https://www.codecogs.com/latex/eqneditor.php
 
 ### Spam Tx Ranker Battle
 
-The main objective for the Spam Tx Ranker Battle is to stress test for the neuron network, and the winner will be the participant with the most tx posted in the Spam Tx Ranker Battle Period ( October 28, 2021 11:00 GMT - October 30, 2021 11:00 GMT). Participants must post txs from their address which is registered in the application form. Failed Tx will not be eligible to be counted. The top 10 winners will receive prizes as follows.
+The main objective for the Spam Tx Ranker Battle is to stress test for the neuron network, and the winner will be the participant with the most tx posted in the Spam Tx Ranker Battle Period ( October 28, 2021 11:00 GMT - October 31, 2021 11:00 GMT). Participants must post txs from their address which is registered in the application form. Failed Tx will not be eligible to be counted. The top 10 winners will receive prizes as follows.
 
 | Rank |  Reward ($GAME) |
 | ---- | --------------- |
@@ -127,7 +131,6 @@ The main objective for the Spam Tx Ranker Battle is to stress test for the neuro
 ## Mission and Ranker Battle Flow
 
 ### All Phase
-- [Share Seed Node](#missions)
 - [Delegate](#missions)
 - [Vote](#missions)
 - [IBC transfer](#missions)
@@ -137,9 +140,11 @@ The main objective for the Spam Tx Ranker Battle is to stress test for the neuro
 - [Sign Genesis Block](#missions)
 ### Phase2
 - [Upgrade Node](#missions)
+- [Share RPC & P2P Node](#missions)(before Phase 3)
+### Phase3
+- **[Spam Tx Ranker Battle](#spam-tx-ranker-battle)**
 ### Phase1~Phase3
 - [No Jail](#missions)
-- **[Spam Tx Ranker Battle](#spam-tx-ranker-battle)**
 ### Phase4
 - [Double Sign Simulation](#missions)
 

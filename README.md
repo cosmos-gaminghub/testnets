@@ -3,12 +3,87 @@ This is the repositary for all the testnets of GAME.
 
 ## Latest Testnet
 
-See [the detail instruction](./neuron-1/README.md) to participate in the Neuron Incentivized Testnet.
+### game-pre
 
+The main purpose of this testnet is to confirm everything is fine for launching mainnet. The target validators are neuron incentivized winners.
 
-genesis.json
+See [the detail instruction](./game-pre/README.md).
+
+**genesis.json**
 
 TBA
+
+**chain ID**
+
+```sh
+game-pre
+```
+
+**genesis time**
+
+```sh
+2022-02-14T11:00:00Z
+```
+
+**Nibiru Version**
+
+```sh
+v1.0-rc1
+```
+
+**Seed**
+
+TBA
+
+
+## Past testnets
+
+### nibiru-3000
+
+See [the detail instruction](./nibiru-3000/README.md).
+
+**genesis.json**
+
+```sh
+shasum -a 256 ~/.nibiru/config/genesis.json
+0ef249be8ba5706d5702eb55834035bbc06744be70bb64d8d57aacea70d36445  /root/.nibiru/config/genesis.json
+
+```
+
+**chain ID**
+
+```sh
+neuron-3000
+```
+
+**genesis time**
+
+```sh
+2022-01-21T11:00:00Z
+```
+
+**Nibiru Version**
+
+```sh
+v0.9
+```
+
+**Seed**
+
+```sh
+4d6c590024b3a24985e910b172fc3b7d3493648a@45.32.39.253:26656
+```
+
+### neuron-1
+
+See [the detail instruction](./neuron-1/detail.md) and [the overview](./neuron-1/README.md) to participate in the Neuron Incentivized Testnet.
+
+
+**genesis.json**
+```sh
+shasum -a 256 .nibiru/config/genesis.json
+cdd706fe8060bba8c2aa8443c0314cb8f4d719bcb691a325bb989a06c682ccb1  .nibiru/config/genesis.json
+```
 
 **chain ID**
 
@@ -25,14 +100,15 @@ neuron-1
 **Nibiru Version**
 
 ```sh
-neuron-1
+neuron-1.1
 ```
 
 **Seed**
+```sh
+seeds = "ac175b66221b555751b3a5fb2e6a8844ba01228d@167.179.104.210:26656"
+```
 
-TBA
-
-## Past testnets
+You can also use Neuron Incentive Testnet Community Seed Node in [hackmd](https://hackmd.io/y_JUOikHTvudW90oGySdWw).
 
 ### nibiru-2000
 

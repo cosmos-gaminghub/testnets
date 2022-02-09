@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NETWORK=neuron-1
+NETWORK=nibiru-3000
 DAEMON=nibirud
 HOME_DIR=~/.nibiru
 CONFIG=~/.nibiru/config
@@ -20,14 +20,14 @@ sed -i "s/\"stake\"/\"$TOKEN_DENOM\"/g" $HOME_DIR/config/genesis.json
 
 for i in $NETWORK/gentxs/*.json; do
   echo $i
-  $DAEMON add-genesis-account $(jq -r '.body.messages[0].delegator_address' $i) 100000000000$TOKEN_DENOM
+  $DAEMON add-genesis-account $(jq -r '.body.messages[0].delegator_address' $i) 100100000000$TOKEN_DENOM
   cp $i $CONFIG/gentx/
 done
 
 # for team validators
-#for i in $NETWORK/gentxs/cgh/*.json; do
+#for i in $NETWORK/gentxs/team/*.json; do
 #  echo $i
-#  $DAEMON add-genesis-account $(jq -r '.body.messages[0].delegator_address' $i) 500000000000$TOKEN_DENOM
+#  $DAEMON add-genesis-account $(jq -r '.body.messages[0].delegator_address' $i) 20000000000000$TOKEN_DENOM
 #  cp $i $CONFIG/gentx/
 #done
 
