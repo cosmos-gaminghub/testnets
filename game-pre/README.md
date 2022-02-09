@@ -56,7 +56,7 @@ If you have lost your private key and want to change the reward address, please 
 - new address
 
 
-3. Add the account to your local genesis file with a given amount. You can not bond more than you have. Check you have enough GAME in your address [here](https://github.com/cosmos-gaminghub/mainnet/blob/main/accounts/incentivized_testnet_rewards.json).
+3. Add the account to your local genesis file with a given amount. Check the amount of GAME in your address [here](https://github.com/cosmos-gaminghub/mainnet/blob/main/accounts/incentivized_testnet_rewards.json).
 
 ```
 nibirud add-genesis-account $(nibirud keys show <your key name> -a) <your initial bonding amount>ugame
@@ -64,9 +64,10 @@ nibirud add-genesis-account $(nibirud keys show <your key name> -a) <your initia
 
 4. Create the gentx
 Commission rate should NOT be less than 5% for the network decentralization.
+You can not bond more than you have.
 
 ```
-nibirud gentx <your key name> 100000000000ugame --commission-rate=0.1 --commission-max-rate=1 --commission-max-change-rate=0.1 --pubkey $(nibirud tendermint show-validator) --chain-id=game-pre
+nibirud gentx <your key name> <your initial bond amount>ugame --commission-rate=0.1 --commission-max-rate=1 --commission-max-change-rate=0.1 --pubkey $(nibirud tendermint show-validator) --chain-id=game-pre
 ```
 
 5. Create Pull Request to this repository ([game-pre/gentxs](./gentxs)) with the file `<your validator moniker>.json`.
