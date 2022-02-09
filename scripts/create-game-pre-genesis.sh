@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/bash -eu
+set -eu
 
 NETWORK=game-pre
 DAEMON=nibirud
