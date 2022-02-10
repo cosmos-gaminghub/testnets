@@ -28,5 +28,5 @@ $DAEMON validate-genesis
 
 cp $GENESIS $NETWORK
 
-timeout 20s $DAEMON start || ( [[ $? -eq 124 ]] && \
+timeout 30s $DAEMON start --x-crisis-skip-assert-invariants || ( [[ $? -eq 124 ]] && \
 echo "WARNING: Timeout reached, but that's OK" )
