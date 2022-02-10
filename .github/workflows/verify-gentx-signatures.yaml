@@ -20,4 +20,4 @@ jobs:
           cd nibiru
           make install
           cd ../
-          bash -x ./scripts/generate-genesis.sh
+          bash -x ./scripts/create-game-pre-genesis.sh

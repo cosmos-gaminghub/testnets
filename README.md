@@ -3,10 +3,52 @@ This is the repositary for all the testnets of GAME.
 
 ## Latest Testnet
 
-### nibiru-3000
+### game-pre
+
+The main purpose of this testnet is to confirm everything is fine for launching mainnet. The target validators are neuron incentivized winners.
+
+See [the detail instruction](./game-pre/README.md).
+
 **genesis.json**
 
 TBA
+
+**chain ID**
+
+```sh
+game-pre
+```
+
+**genesis time**
+
+```sh
+2022-02-14T11:00:00Z
+```
+
+**Nibiru Version**
+
+```sh
+v1.0-rc1
+```
+
+**Seed**
+
+TBA
+
+
+## Past testnets
+
+### nibiru-3000
+
+See [the detail instruction](./nibiru-3000/README.md).
+
+**genesis.json**
+
+```sh
+shasum -a 256 ~/.nibiru/config/genesis.json
+0ef249be8ba5706d5702eb55834035bbc06744be70bb64d8d57aacea70d36445  /root/.nibiru/config/genesis.json
+
+```
 
 **chain ID**
 
@@ -28,9 +70,9 @@ v0.9
 
 **Seed**
 
-TBA
-
-## Past testnets
+```sh
+4d6c590024b3a24985e910b172fc3b7d3493648a@45.32.39.253:26656
+```
 
 ### neuron-1
 
