@@ -11,7 +11,7 @@
                     "details": "Lavender.Five Nodes is committed to providing world class validator services to make your life easy, including 100% slash protection. Come say hi! https://twitter.com/lavender_five"
                 },
                 "commission": {
-                    "rate": "0.000000000000000000",
+                    "rate": "0.050000000000000000",
                     "max_rate": "0.100000000000000000",
                     "max_change_rate": "0.050000000000000000"
                 },
