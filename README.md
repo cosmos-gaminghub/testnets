@@ -9,9 +9,12 @@ The main purpose of this testnet is to confirm everything is fine for launching 
 
 See [the detail instruction](./game-pre/README.md).
 
-**genesis.json**
+**genesis.json.gz**
 
-TBA
+```sh
+shasum -a 256 ~/.nibiru/config/genesis.json.gz
+57072db21451fcb6be0bf626ad96fb2ab0ac34b1173b1322318567bcef3d47e9  /root/.nibiru/config/genesis.json.gz
+```
 
 **chain ID**
 
@@ -33,8 +36,9 @@ v1.0-rc1
 
 **Seed**
 
-TBA
-
+```sh
+1029d637f2ef514833394d2f7b12e93bb2537d1a@167.179.113.103:26656
+```
 
 ## Past testnets
 
