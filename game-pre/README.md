@@ -81,7 +81,7 @@ nibirud gentx <your key name> <your initial bond amount>ugame --commission-rate=
 
 1. Get genesis.json.gz
 ```sh
-curl -o $HOME/.nibiru/config/genesis.json https://raw.githubusercontent.com/cosmos-gaminghub/testnets/master/game-pre/genesis.json.gz
+curl -o $HOME/.nibiru/config/genesis.json.gz https://raw.githubusercontent.com/cosmos-gaminghub/testnets/master/game-pre/genesis.json.gz
 ```
 
 2. Check genesis.json.gz is correct
@@ -114,7 +114,7 @@ If you have already started, then should reset the state with the command `nibir
 5. Add seed node info
 
 ```sh
-sed -i -e "s%^seeds *=.*%seeds = \"1029d637f2ef514833394d2f7b12e93bb2537d1a@167.179.113.103:26656\"%; " $HOME/.nibiru/config/config.toml
+sed -i -e "s%^seeds *=.*%seeds = \"1029d637f2ef514833394d2f7b12e93bb2537d1a@167.179.113.103:26656,7d2170f974a250ab1b9f2c269268cc5f2eb8eb37@198.13.50.199:26656\"%; " $HOME/.nibiru/config/config.toml
 ```
 
 6. Create a service file
